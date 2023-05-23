@@ -56,7 +56,7 @@ class Home extends Component {
     this.setState({ account: accounts[0] });
     // Network ID
     const networkId = await web3.eth.net.getId();
-    const networkAdress = "0x46aCEb309B371cb7073Db48e4752626f48f38E0F";
+    const networkAdress = "0x3b79859735Cc779c21Cd3Bd7f62705bA893cE4CF";
     // const networkAdress = "0xE4f76e3aE3C6D77Ad74E5276663F9e79D066CE6B"
 
     if (networkAdress) {
@@ -319,6 +319,7 @@ console.log(this.state.username+".med")
                                     </div>)}
                     <Card>
                       <Card.Body as="h3">Hi {this.state.patientData.username}</Card.Body>
+                      <Card.Body as="h6">Patient ID {this.state.patientData.patient_id}</Card.Body>
                       <img className="col-lg-12" src={HealthCard}/>
 
                     </Card>

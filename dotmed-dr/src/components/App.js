@@ -53,7 +53,7 @@ class App extends Component {
     this.setState({ account: accounts[0] });
     // Network ID
     const networkId = await web3.eth.net.getId();
-    const networkAdress = "0x46aCEb309B371cb7073Db48e4752626f48f38E0F";
+    const networkAdress = "0x3b79859735Cc779c21Cd3Bd7f62705bA893cE4CF";
     // const networkAdress = "0xE4f76e3aE3C6D77Ad74E5276663F9e79D066CE6B"
 
     if (networkAdress) {
@@ -313,7 +313,7 @@ class App extends Component {
                             />
                           </Form.Group>
                           <Form.Group className="mb-3">
-                            <Form.Label>Address</Form.Label>
+                            <Form.Label>Metamask Wallet Address</Form.Label>
                             <Form.Control
                               type="text"
                               placeholder="Address"
