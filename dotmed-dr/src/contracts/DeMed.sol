@@ -101,6 +101,7 @@ contract DeMed {
          string memory _address,
          string memory _meetlink
     ) public returns (bool) {
+        require(patientDetails[_address]!=null,"Patient Already exists");
         PatientData storage _patient=patientDetails[noOfPatients];
         _patient.hospital_id=_hospitalId;
         _patient.patient_address = _address;
