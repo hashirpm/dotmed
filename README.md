@@ -1,6 +1,6 @@
 <div align="center" style="font-family:'Montserrat', sans-serif;">
   
-## dotMed 🎥
+## dotMed 
 
   Revolutionizing healthcare with Blockchain
 </div>
